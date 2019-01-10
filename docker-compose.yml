@@ -16,8 +16,8 @@ services:
       ADMIN_FRONTNAME: admin
       ADMIN_EMAIL: admin@example.com
       ENCRYPTIONKEY: 731aea833710535779fe8c7c49bc6c4d
-#    volumes_from:
-#      - nginx
+    volumes_from:
+      - nginx
     volumes:
       - ./config/installer/php/php.ini:/usr/local/etc/php/php.ini
       - ./config/installer/magerun/n98-magerun.yaml.tmpl:/etc/n98-magerun.yaml.tmpl
@@ -58,10 +58,8 @@ services:
       - ./config/nginx/includes:/etc/nginx/includes
       - ./config/nginx/custom-locations:/etc/nginx/custom-locations
       - .:/var/www/html
-    networks:
-      default:
-        aliases:
-          - nginx
+    volumes_from:
+      - php
   php:
     image: matigda/magento_php:v1
 #    build: ./docker-images/php
@@ -74,10 +72,6 @@ services:
     volumes:
       - .:/var/www/html
   #    - ~/.ssh:/root/.ssh
-    networks:
-      default:
-        aliases:
-          - php
   mysql:
     image: mysql:5.5
     ports:
@@ -107,5 +101,3 @@ services:
 #    environment:
 #      PMA_HOST: "mysql"
 #      PMA_PORT: 3306
-networks:
-  default:

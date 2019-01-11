@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 services:
   installer:
     image: andreaskoch/dockerized-magento-installer
@@ -16,8 +16,8 @@ services:
       ADMIN_FRONTNAME: admin
       ADMIN_EMAIL: admin@example.com
       ENCRYPTIONKEY: 731aea833710535779fe8c7c49bc6c4d
-    volumes_from:
-      - nginx
+#    volumes_from:
+#      - nginx
     volumes:
       - ./config/installer/php/php.ini:/usr/local/etc/php/php.ini
       - ./config/installer/magerun/n98-magerun.yaml.tmpl:/etc/n98-magerun.yaml.tmpl
@@ -58,8 +58,8 @@ services:
       - ./config/nginx/includes:/etc/nginx/includes
       - ./config/nginx/custom-locations:/etc/nginx/custom-locations
       - .:/var/www/html
-    volumes_from:
-      - php
+#    volumes_from:
+#      - php
   php:
     image: matigda/magento_php:v1
 #    build: ./docker-images/php

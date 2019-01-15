@@ -18,7 +18,6 @@ RUN buildDeps=" \
     mbstring \
     mysqli \
     mcrypt \
-    mysqli \
     pdo_mysql \
     soap \
     zip \

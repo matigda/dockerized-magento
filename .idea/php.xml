@@ -10,24 +10,24 @@
       <path value="$PROJECT_DIR$/vendor/avstudnitz/scopehint" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/eloquent/enumeration" />
-      <path value="$PROJECT_DIR$/vendor/tim-reynolds/magento-qconfig" />
       <path value="$PROJECT_DIR$/vendor/aydin-hassan/magento-core-composer-installer" />
       <path value="$PROJECT_DIR$/vendor/magento-hackathon/magento-composer-installer" />
       <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
-      <path value="$PROJECT_DIR$/vendor/zetacomponents/base" />
       <path value="$PROJECT_DIR$/vendor/colinmollenhour/modman" />
       <path value="$PROJECT_DIR$/vendor/gordonlesti/lesti_fpc" />
-      <path value="$PROJECT_DIR$/vendor/zetacomponents/console-tools" />
       <path value="$PROJECT_DIR$/vendor/jeroenvermeulen/solarium" />
-      <path value="$PROJECT_DIR$/vendor/theseer/directoryscanner" />
-      <path value="$PROJECT_DIR$/vendor/theseer/autoload" />
-      <path value="$PROJECT_DIR$/vendor/magento/core" />
-      <path value="$PROJECT_DIR$/vendor/aoepeople/aoe_profiler" />
       <path value="$PROJECT_DIR$/vendor/aschroder/smtp_pro" />
       <path value="$PROJECT_DIR$/vendor/aoepeople/aoe_scheduler" />
-      <path value="$PROJECT_DIR$/vendor/aoepeople/aoe_templatehints" />
-      <path value="$PROJECT_DIR$/vendor/madalinoprea/magneto-debug" />
+      <path value="$PROJECT_DIR$/vendor/zetacomponents/console-tools" />
+      <path value="$PROJECT_DIR$/vendor/zetacomponents/base" />
+      <path value="$PROJECT_DIR$/vendor/magento/core" />
       <path value="$PROJECT_DIR$/vendor/reactjs/react-php-v8js" />
+      <path value="$PROJECT_DIR$/vendor/theseer/directoryscanner" />
+      <path value="$PROJECT_DIR$/vendor/theseer/autoload" />
+      <path value="$PROJECT_DIR$/vendor/madalinoprea/magneto-debug" />
+      <path value="$PROJECT_DIR$/vendor/tim-reynolds/magento-qconfig" />
+      <path value="$PROJECT_DIR$/vendor/aoepeople/aoe_profiler" />
+      <path value="$PROJECT_DIR$/vendor/aoepeople/aoe_templatehints" />
     </include_path>
   </component>
 </project>

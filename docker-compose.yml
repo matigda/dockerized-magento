@@ -34,7 +34,7 @@ services:
 #      - ./config/nginx/sites-enabled/default.conf:/etc/nginx/conf.d/default.conf
 #      - ./config/nginx/includes:/etc/nginx/includes
 #      - ./config/nginx/custom-locations:/etc/nginx/custom-locations
-#      - .:/var/www/html
+      - .:/var/www/html
 #    links:
 #      - "cache:rediscache"
 #      - "sessions:redissession"

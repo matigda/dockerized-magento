@@ -45,8 +45,8 @@
 <?php echo $this->getChildHtml('after_body_start') ?>
 
 <?php
-$app = file_get_contents('http://magento_nginx/js/dist/app.bundle.js');
-$react = file_get_contents('http://magento_nginx/js/dist/react.bundle.js');
+$app = file_get_contents('http://nginx/js/dist/app.bundle.js');
+$react = file_get_contents('http://nginx/js/dist/react.bundle.js');
 
 $rjs = new ReactJS($react, $app);
 $rjs->setComponent('ShoppingList');

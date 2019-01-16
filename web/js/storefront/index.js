@@ -1,5 +1,5 @@
-import React from "./react";
-import EditorialIntroNike from "ecommerce/src/helpers/Editorial/EditorialIntroNike/EditorialIntroNike";
+import React from "react";
+// import EditorialIntroNike from "ecommerce/src/helpers/Editorial/EditorialIntroNike/EditorialIntroNike";
 
 // import MenuBarNikeStory from "ecommerce/src/helpers/MenuBarNike/MenuBarNike.story";
 // import ProductWrapper from "ecommerce/src/helpers/ProductWrapper/ProductWrapper";
@@ -34,9 +34,10 @@ class ShoppingList extends React.Component {
         {/*</ProductWrapper>*/}
 
         return (
-            <EditorialIntroNike />
+            <div>elo</div>
         );
     }
 }
 
+export default ShoppingList;
 global.ShoppingList = ShoppingList;

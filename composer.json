@@ -13,7 +13,6 @@
     "aydin-hassan/magento-core-composer-installer": "*",
     "colinmollenhour/modman": "*",
     "theseer/autoload": "*",
-    "magento/core": "^1.9",
     "madalinoprea/magneto-debug": "^1.8",
     "reactjs/react-php-v8js": "^2.0"
   },

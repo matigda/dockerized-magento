@@ -1,5 +1,5 @@
 import React from "react";
-// import EditorialIntroNike from "ecommerce/src/helpers/Editorial/EditorialIntroNike/EditorialIntroNike";
+import EditorialIntro from "ecommerce/src/helpers/Editorial/EditorialIntro/EditorialIntro";
 
 // import MenuBarNikeStory from "ecommerce/src/helpers/MenuBarNike/MenuBarNike.story";
 // import ProductWrapper from "ecommerce/src/helpers/ProductWrapper/ProductWrapper";
@@ -27,7 +27,7 @@ class ShoppingList extends React.Component {
         {/*{EditorialBigImageStoryNike2}*/}
         {/*{EditorialBigImageStoryNike3}*/}
 
-        {/*<EditorialIntroNike subTitle={"You may also like"} />*/}
+        {/*<EditorialIntro title={"You may also like"} />*/}
 
         {/*{AgileGridStoryNike}*/}
         {/*{FooterNikeStory}*/}
